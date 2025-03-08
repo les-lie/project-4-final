@@ -1,0 +1,36 @@
+/* Import font from Project 2 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Five shared styles across all pages */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+nav ul.menu {
+  padding: 1rem 0;
+  background-color: #f5f5f5;
+}
+nav ul.menu li a {
+  color: #333;
+  text-decoration: none;
+}
+nav ul.menu li a:hover {
+  color: #1779ba; /* Foundation primary color */
+}
+
+/* Resume-specific styles */
+#resume-page {
+  padding: 2rem 0;
+}
+#resume-page h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ddd;
+}
